@@ -1,0 +1,10 @@
+1) GET: Fetch all movies: {{baseUrl}}/api/v1/movies
+2) GET: Fetch single movie by id: {{baseUrl}}/api/v1/movies/id/693282ac25e2b1d015ee50b6
+3) GET: Fetch single movie by imdb: {{baseUrl}}/api/v1/movies/imdb/tt6443346
+4) POST: Write review commment for movie: {{baseUrl}}/api/v1/reviews
+    {
+  "reviewBody": "Nice movie",
+  "imdbId": "tt6443346"
+    }
+
+
